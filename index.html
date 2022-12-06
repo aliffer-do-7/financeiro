@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<script type="text/javascript">
+    function reload() {
+        location.reload();
+    }
+</script>
+<html>
+
+<!-- Mirrored from scania.enviodeboleto.com.br/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Dec 2022 00:22:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda via de Boleto Bancário</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://scania.enviodeboleto.com.br/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Animate -->
+    <link href="https://scania.enviodeboleto.com.br/css/animate.css" rel="stylesheet">
+
+    <!-- Magnific-popup -->
+    <link rel="stylesheet" href="https://scania.enviodeboleto.com.br/css/magnific-popup.css">
+
+    <!-- Icon-font -->
+    <link rel="stylesheet" type="text/css" href="https://scania.enviodeboleto.com.br/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link href="https://scania.enviodeboleto.com.br/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css">
+    <script src="https://scania.enviodeboleto.com.br/javascripts/Canais.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="https://scania.enviodeboleto.com.br/css/style.css" rel="stylesheet">
+    <link href="https://scania.enviodeboleto.com.br/css/bootstrap-select.min.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Pre-loader -->
+    <div class="preloader">
+        <div class="status">&nbsp;</div>
+        <p class="carregando"><br /><br />Carregando, aguarde...</p>
+    </div>
+
+    <div class="navbar navbar-custom sticky" role="navigation">
+        <div class="header-bar container" style="height:100px">
+            
+            <img src="data:image/jpg;charset=utf-8;base64, /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABdAUcDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAEooNcj4+8cWngjRlupEE15MxW2t92N7DqT6KM8n3HrQk27ITdlc6xnWNSzMFUDJJNc/eeOvCunsUuPEOmq44ZBcKzD6hSTXy54j8Z694quGk1TUJHiJytuhKxJ6YUccepyfc1gV0xw38z+4xdbsfWP8AwtbwQDg6/Dn/AK5Sf/E1ctviJ4PvCBF4i08E/wDPWUR/+hYr5Coqnho92L2z7H29BcQXcQlt5o5oz0eNwwP0xU1fFOl6zqei3QuNLvri0lB5aKQrux2I6EexGK+gfhh8Uz4plGjayI49VC5hlUYW4A5PHZhycDggHpjFZToOKundGkaiejPVelISAMmuf8W+LNP8H6I+pX7FsHZFCp+aV+yj+p7AV8zeK/iD4g8XXD/bLt4bMk7LOBtsYHocfePu2e+MDipp0pT9Bzmon0xf+OvC2lsyXmvWCSLwyCYMw+qrk1kH4v8AgQNtOu89OLSfH/oFfKlFbrDx6tmTrPoj67sviN4PviBD4hsAT082Tyv/AEPFdLFLFPEskUiSIwyGRsg/iK+H61dE8S6z4cuhPpOoz2rZyVRso/8AvKcq34ilLDLo/vBVu6Ps8UV558N/iZB4ziazvI0ttYiXc0a/cmUdWTPT3H5E9ux17WIdB0G+1W4x5drC0hUn7xA4X6k4H41zOLTszdSTV0aOR7UZHtXxHd3c97eT3dxIXmnkaSRieWZiST+ZJqHJ9TXR9W8zH23kfcW4GjI7c18O5Pqa7L4XeIT4e8eWE0khW2uT9ln542vgAnPQBgpJ9AaUsO0rp3Gqt3Y+sR0pCcdaU187ftAE/wDCX6dyf+PEdP8AfesYQ55WNJy5Vc+iM+9Gfevh3J9TRk+pro+ref4GXtvI+4xS14v8FvH/ANst08L6pMTcRL/oUjnl0HJQn1Xt7A+nPs4rmnFxdmbRkpK4mQOtGcd8180/HYkfEJOT/wAeMX/oT15nk+praNDminfcylVs7H3H1pMgdxXi/wCz6SdG17k/66P/ANBavB5WPmvyevrSjQbk432G6lkmfcGR6ilr4cyfU19ffD7/AJJ7oGf+fGL/ANBpVKXIk73uOFTmOlpMg9xXHfE/xD/wjngS/uI323M4+zwEddz5GR7hdx/Cvk7J9TRTouavewp1OXQ+4s+9Gfevh3J9TRk+prX6t5/gT7byPuMEHpRXzj8CvEB0/wAVXGjTORFqMWU9pEyR9MqW+vFfRxrnnBwdmawlzK4tFFFSUFFFFABXzN8c72W5+IP2Z2by7W1jRFJ4+bLEj6kgZ9h6V9MV4V8dPCF3LdweJ7KFpYFhEN2EBJj2klXI9MHBPbA9a1oNKepnUXu6HiFdL4CtNDvfGNnD4imSLTjuLGR9iM2CQGbsM/4Z5rmqK7mrpq9jlT1ufYtv4X8KT2gFtoujy25GAUto2Uj8ua8o+JXwib7VbXvg/S3bzSwuLWNwFQ9mXcRgHkYBx0wBXi0FzPaSebbzSQuOjRuVP5gg1u2XjzxZp5Bt/EOogdledpFH4MSP0rnjSnF3UjZ1IvdF/wD4VV43/wChfn/7+R//ABVaOgfDrxzpXiLTb9dDnjNvcxyFvNTGAwJzhumMj3Gafp/xt8ZWR/f3NtfL/duIAOPqm016R4T+Nuka1cR2WsW50y5kIVZS++FifVsArn3496cpVUndKwoqHmeafGPxFJrfju5tFkJtNN/0aNQeN3BkOPXdwfZRXntaGuzNceIdTnc5aS7lcn1Jck1n1tFcsUkZyd3dnU+BfBF5441lrS3kEFrCA9xcFdwjB4AA4yxwe46E9q9rj+BHhJbby3k1F5P+evnjP5bcfpUfwHs4oPA1xdADzbm9fc3fChQB/P8AOvVP5VyVasuZpPRHRCEeW7Plb4jfDe48DXEM8M7XWmXDFI5WADI+CdjY4JIyQRjODwMVwlfaWs6FpviCw+w6rardW24P5bEgbh0OQQe9c8PhV4I/6AEH/fyT/wCKqo4iytJXJlS10PmDQNXm0HX7DVbdiHtZlk4P3lz8wPsQSPoTXtvx78RCDRrHQYXw94/2icA8+Wv3QfYtz/wCuyPwq8EY/wCQBB/38k/+Kr52+IevjxH421C8jfdbRv5Fvg5Hlp8oI9ict/wKqjJVJp22/pCacI2Zy9dN4G8JS+MvEB01GMaLBJK8g/hwML+BcqPpmuZr6J+BGgCx8L3OsyoRNqEu1Cf+eSZAx9W3fkK0qz5Y3W5nCPM9T56mhkt55IJkKSRuUdTwVIOCD7g5FRgkEEE8HOR2r0P4zeH/AOxfHk11Em231FRcoccb+jj/AL6G7/gQrzyrjLmin3FJWdj688AeIB4m8FadqLNuuPL8qf18xPlYn64z+Irx79oH/kcNN/68R/6MerfwC8QeTqeoeH5nwlwv2mAE/wAa8MB7lSD/AMAqp+0B/wAjhpv/AF4j/wBGPXNCPLWa9TaUr07nklFFbmkeF73W9B1fU7IeY2mCN5YgPmZG3bmH+7tyR6ZPbB6m0ldmCT2Rj29xNaXMVzbStFNE4dJEOGVgcgj0IODX1b8OPG0PjTw8JnKrqVviO7iHHzdmA/utjP5jtXydW74S8UXvhDxBDqlmS235Zos4EqHGVP5Aj3A9Kzq0+eOm6LhPlfkdh8dv+ShJ/wBeUf8A6E9eZV33xc1ez17xVZanYSeZbXGnROh7j5nBBHYg5BHY5rgadNe4k+wp/Ez3r9n3/kC69/12j/8AQTXg8n+tf/eP8694/Z9/5Auvf9do/wD0E14PJ/rX/wB4/wA6mHxy+Q5fChtfX/w9/wCSe+H/APrxj/8AQa+QK+tvBt7Dpvws0m+uWCwW+mJLI3oqpk1GJ+FF0d2eSfHjxD9u8SWuiQvmKwj3ygZ/1j88/Rdv/fRrySrur6lPrOsXmp3BPnXUzSsM9NxJAHsBgD2FUq2hHlikZyld3Oo8M+DbrxHoWv6lDuxpluJEUfxtnJHvhFc/UrXL19WfCvw8NB+H1lDMmJ7wG6nDergYBHsgUfhXzn420A+GfGGpaUFIhilLQn1jb5k574BAPuDUQqc0mvuKlCyTMrS9Rn0nVbTUbYgTWsyypnoSpBAPt2+lfZml6hBq2lWuoWzZhuYklT1wwB5r4or6K+BHiH+0PDNxosz5m06TMYP/ADyckj8m3fgRUYiN0pIqlLWx63RRRXIdAUUUUAJ+FYNx4x8L280ttceINKjljYxyxSXcYZWBwQwJ4OcjBre696+UfitoUuifEHUSyMIL2Q3cLn+Lectj6NuH4D1rSnBTdmyJycVdHqeueG/hJrcjzf2vpNjO/Jez1CNAT/u5K/kM1zcfwf8ADOs3LweH/HFvcSBS/kjy53CggEnYwOORzj+deNVteFPEt74R1+DVrIKzICkkbZ2yIeqnH4EHsQDziun2cor3X99jDnTeqO+vPgF4khLG11DTrhR03M6Mfw2kfrXF+IvAXiTwvCLjVNOZLYttFxGyumfcqePxxXs9p8ffDcturXVhqME2PmRESRQfY7hkfgK5P4h/GCz8T+H59E0mwnSK4K+bPc7QQqsGwqgnkkDk/l3EwlWvZrQqUYWujyCiiiukxCiuy8U/D/UPDfhnRdZkjcpdwg3KkcwyEllB9AU2jnoVPqBXG0lJSV0Npp2Z9B/ALWYZvD1/o7MBcW9wZgucZjcAceuGBz9RXsNfFeja1qPh/UotR0y6e3uY/uuvIIPYg8EH0ORXpcfx/wDEC22yTS9OecdJPnC/iu7+tctWjJyvE2hUSVmeq/EnxpJ4J8OR3tqkEl5NMIoYpslT3YnBB4A9epFeT/8ADQHif/oG6R/37k/+LrgfEvirV/FmpC+1a5MrqCscajCRr6KO315JwMk1i1pCgkveV2TKo29Nj1C9+Ovie8sbi2+x6dD50bR+ZEkm9MgjK5cgEZzyDyK8voorWMYx2VjNyb3YV6ZpXxs17RtKtNNtNM0kW9rEsUeY5CcKMc/P19T3JNef2WlajqQc2NhdXQQ/MYIWk2k9M4BxnB6+lWf+EX8Q/wDQC1T/AMBJP/iaUoxlpKw4trVG54y+IupeOLS2g1KxsImtpC8clujhhkYIO5iMHgnjsK46tX/hF/EP/QC1T/wEk/8Aiaz7m2ns7hoLmCSCZPvRyKVZe4yCAR6/jTioxVkJtvVl/wAN6zL4e8Safq0Wc2swcgcFk6MPxUkfjXoXx4niuvE2kXMDh4ZdOV0dejAuxBHsQRXlNa+sa5Jq9hpEE24yafam13E53KHZlx9AwH4Ck4+8peo1L3WjIr2/9ngAyeIAQPuwD/0ZXiFe4fs7/wCs8Qf7sH/tSprfw2On8Ry/xZ8Anwtq/wDaVhFjSbxztCjiCQ8lPYHkj8R2583r7U1nSbLXtIuNLv4vNtrhCrL39iD2IOCD6ivkjxf4XvPCHiGfS7sEhfmhlxgSxn7rfpg+hBqKNXmVnuVUhZ3WxhUUUV0GR71+z7/yBde/67R/+gmvB5P9a/8AvH+de8fs+/8AIF17/rtH/wCgmvB5P9a/+8f51jD45fIuXwobXtvjPxD/AGZ8DvDekxPifUrWJWx1ESKGb8ztHuCa8SrX13W5NZGmxkFYrGxitI1P+yvzH8WLfhirlG7Xk7ijKyZkVJBIIZ45GjWQIwYo+drYOcHBBwehwRUdX7XQ9Xv4BPaaVe3EJ4EkVu7qT0OCARxVNrqSvI9IHx+8SqMDTdIAH/TOTj/x+uL8YeMbzxrqUF/f2lpBcRReVut1Yb1ySM7mPIJPPvVL/hF/EP8A0AtT/wDAST/Cj/hF/EP/AEAtT/8AAST/AAqFGC1Vk/68y3KT0Zk12nwr8Qf8I/4+sHd9ttdn7JNk8YfAUn0AYKc+gNcY6MjFHUqwJBUjGMdcjsaASCCCQR0I4IqpJNNPqSm07n3HmlrmvAniAeJ/BunakzbpniCT/wDXRflb8yM/Qiuk9a81qzsztTvsLRRRQAVz3izwfpXjDTPsWpxE7eYp4+JIm7lTjv3HQ4HoK6Gihd0Jo+Z/EHwQ8TaXKzaaItUtuqmMiOQD3VjjP0J/CuIu/DGv2DFbvRNRhwcZe2cD8DjBHuK+z6b+NbrES66mbpLofEDQTIcNE6npgqRViDStRuiBBYXUuTgCOFm/kK+2OKOKr6y+34k+x8z5H0v4aeMNWYeRoN1Eh/juV8lQP+B4J/AGvW/BHwUtdFuYtS1+eO+u4yGjt4wfKQ56nIBcj0IAHvXroorOVeclbYuNOK1Kd9YWuqWU1neQJPbzKUeNxkMP89+teF+LPgVf280l14ZmW5tySRaTttkT2Vjww+uD9TzX0BR0qITlDYqUVLc+M9Q8J+IdLkZL7Rb+HBxuaBip+jAEEe4JrJMbhtpVt3TBBzX3F+VGBWyxL7GXsV0Pi+w8Oa3qTqtjpF9cFuhjt2YfUnGAPcmvSvCfwO1O7mS78SEWlqvzG0icNNJ6AkHaoPrnP0619DUUpYiTVloUqSW58u3vwk8b3d9PPHoEUCSSFliS6h2oD0UfP0AwPwqD/hTfjr/oDL/4FQ//ABdfVH4UflS+sT8g9lE4z4Y+FJvCXg2G0vI/LvppGmuVBDYYnAGRkcKF712tJ6UetYyd3dmiVlYO1eL/ABa+GuseIfENtq2g2SzvLD5dyvmomCvCt8xGSQce20V7TSVUJuLuhSjdWZ8rf8Kb8df9AZf/AAKh/wDi6P8AhTfjr/oDL/4FQ/8AxdfVP5UflWv1ifkZ+yifK3/CnPHQ/wCYMv8A4FQ//F16j8G/BuveE5NY/tqyFt9pEXlYlR923fn7pOOo616xRUSrSkrMqNOKd0BrjfiJ4Ig8a6AYUCpqNuC9pMeMN3U/7LYAP4HtXZYorNNp3RbV0fK3/Cm/HX/QGX/wKh/+Lo/4U346/wCgMv8A4FQ//F19U/lR+Vb/AFifkZeyieX/AAg8Ja54U03VodZtBbvcSI0YEqPkAEHlScdR1ryh/g946aRiNGXBOf8Aj6h/+Lr6noqFWkm2upbppqx8rf8ACm/HX/QGX/wKh/8Ai6P+FN+Ov+gMv/gVD/8AF19U/lR+VX9Yn5EeyifK3/CnPHX/AEBl/wDAqH/4uvpDwtocfhzwxp+kR4/0aFVcj+Jzy5/FiT+NbNFZzqynoy4wUdhaKKKgs+e/H/wm8Q33jG+v9C09Z7K7YT/66NNrkfOMMwP3sn/gWO1cz/wpzx1/0Bl/8C4f/i6+qaK1VeSVjN0ovU8r+D/h3xR4Vj1DTta0/wAizmImhcTI+H+6w+VieRt9vl969U9aOlLWcpOTuy4qysFFFFIYUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k=" alt="Image" style="max-height:100%;max-width:100%" />
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <!-- FEATURES-1 -->
+    <!-- FOOTER -->
+    <!--<div class="body-content">-->
+    
+
+
+<!-- js placed at the end of the document so the pages load faster -->
+<script src="https://scania.enviodeboleto.com.br/js/jquery.js"></script>
+<script src="https://scania.enviodeboleto.com.br/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://scania.enviodeboleto.com.br/js/jquery.easing.1.3.min.js"></script>
+<script src="https://scania.enviodeboleto.com.br/js/wow.min.js"></script>
+<script type="text/javascript" src="https://scania.enviodeboleto.com.br/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="https://scania.enviodeboleto.com.br/js/jquery.sticky.js"></script>
+<script src="https://scania.enviodeboleto.com.br/js/waypoints.min.js" type="text/javascript"></script>
+<script src="https://scania.enviodeboleto.com.br/js/jquery.counterup.min.js" type="text/javascript"></script>
+<script src="https://scania.enviodeboleto.com.br/js/jquery.mask.min.js" type="text/javascript"></script>
+<script src="https://scania.enviodeboleto.com.br/js/jquery.app.js"></script>
+
+<script src="https://scania.enviodeboleto.com.br/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+<script src="https://scania.enviodeboleto.com.br/locales/bootstrap-datepicker.pt-BR.min.js" type="text/javascript"></script>
+<script src="https://scania.enviodeboleto.com.br/js/datepicker-pt-BR.js"></script>
+<script src='../www.google.com/recaptcha/api02b8.js?hl=pt-BR'></script>
+<script src="https://scania.enviodeboleto.com.br/javascripts/Canais.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+	
+        $('#Vencimento').addClass("myDate");
+        $('.myDate').datepicker({ autoclose: true })
+        
+    })
+
+    function validar() {
+        var cpf = $('#Documento');
+        var text = cpf.val();
+        var erros = 0;
+        var re = /^(\d{3}\.\d{3}\.\d{3}\-\d{2}$|\d{11}$|\d{15}$|\d{2}\.\d{3}\.\d{3}\/\d{4}\-\d{2}$|\d{3})/
+        if (!re.test(text)) {
+            inserirNotificacao('Informe um CPF/CNPJ válido', 'erroDocumento');
+            erros++;
+        }
+        var data = $('#Vencimento');
+        var hoje = new Date();
+        if (data.val() != undefined) {
+            re = /^(\d{2}\/\d{2}\/\d{4})/
+            var parts = data.val().split("index.html");
+            var dataVencimento = new Date(parts[2], parts[1] - 1, parts[0]);
+            if (!re.test(data.val()) || dataVencimento < hoje.toISOString()) {
+                inserirNotificacao('Informe uma data válida', 'erroVencimento');
+                erros++;
+            }
+        }
+
+        if (erros == 0) {
+            $('.status').fadeToggle();
+            $('.preloader').fadeToggle('slow');
+            $('#ajax-form').submit();
+        }
+    }
+    function inserirNotificacao(msg, id) {
+        $('#' + id).text(msg);
+    }
+    function limparNotificacao(id) {
+        $('#' + id).text('');
+    }
+
+</script>
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <section class="section" id="services" style="padding: 19px 0 0 0;">
+        <div class="container bg-img content" style="height: 680px;">
+            <div class="row">
+                <div ui-view="content" class="content col-xs-12 ng-scope">
+
+                    <div class="col-md-4 col-md-offset-8">
+                        <h1 class="home-text title" style="padding-top: 40px; font-size: 2.0em;"><strong>Praticidade e Agilidade</strong> com as<span style="color: #F6892D; font-weight: bold;"> melhores opções para seus pagamentos<span></h1>
+                        <div class="container-login">
+                            <form role="form" name="ajax-form" id="ajax-form" action="https://scania.enviodeboleto.com.br/Principal" method="post" class="form-main" style="padding-top: 16px;">
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <!--Div effects<div class="row animated fadeInDown wow" data-wow-delay=".5s">-->
+                                        <div class="col-sm-12">
+                                            <h4 style="font-weight: 700; padding-bottom: 16px;text-transform:uppercase; font-size: 16px; ">Acesse seus boletos e negociações</h4>
+                                        </div>
+                                            <div class="form-group col-sm-12">
+                                               
+
+                                    <div class="row">
+                                        <div onclick="$('#ErroCaptcha').hide()" class="col-xs-12 text-center">
+                                            <div class="g-recaptcha" data-sitekey="6LeusCcTAAAAAPsFfVtkI2oCZpFQOal6ySXrLevH"></div>
+                                        </div>
+                                    </div>
+                                    <br class="hidden-xs">
+                                    <div class="row">
+                                        <div class="col-xs-12 text-center">
+
+                                            
+                                            <button type="button" onclick="validar()" class="btn btn-custom" value="Entrar" id="Entrar">Entrar</button>
+                                        </div> <!-- /col -->
+                                    </div> <!-- /row -->
+                                </div>  <!-- /row -->
+                            </form> <!-- /form -->
+                            <input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." id="SubDominio_Id" name="SubDominio.Id" type="hidden" value="87" />
+                        </div>
+                    </div>
+
+                </div>
+                <section class="row areas center">
+                    <h2>
+                                            
+                                            
+                                            Serviços Online Para Você</h2>
+                    <h3>Confira Todas as Nossas Soluções</h3>
+                    <hr>
+                                   
+                            t
+            
+                    <section class="row sobre">
+                    <figure>
+                        <img src="/admin/images/images/2021/10/assessoria-financeira-especializada.png" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                    <article>
+                        <h2>ASSESSORIA de contrato ESPECIALIZADA</h2>
+                        <p>Assessoria em contratos especializada em realizar a intermediação entre consumidor final e o Banco de destino. Somos uma empresa parceira e autorizada a realizar serviços dentro da área financeira. Sempre buscamos gerar para você o pagamento do valor justo no contrato que tenha estabelecido.<br><br>Nosso trabalho é 100% transparente e temos como valores a honestidade, imparcialidade, segurança e respeito. Entre em contato conosco agora mesmo!</p>
+                       
+                    </article>
+                </section>
+            
+            </div>
+            <aside class="float">
+                <a  target="_blank" href="https://api.whatsapp.com/send?phone=5511952199259&amp;text=Ol%C3%A1%2C%20Tudo%20bem%3F%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20servi%C3%A7os%21" class="btn-floating waves-effect pulse">
+                    <p class="whatsapp">Chame Agora Mesmo!</p> 
+                    <span class="fab fa-whatsapp"></span> 
+                    <strong class="whatsapp">11 95219-9259	</strong>
+                </a>
+            </aside>
+                <header class="row head center">
+                <figure>
+        </div>
+    </section>
+    <!-- END FEATURES-1 -->
+    <!-- FEATURES-1 -->
+        <section class="section" style="padding:0;" id="services">
+            <div class="container">
+                <div class="row text-center" style="border-left: solid 1px #eaeaea;border-right: solid 1px #eaeaea; padding: 40px 0;">
+                    <div class="col-sm-12">
+                        <div class="services-box">
+                            <div class="icon-box" style="padding-bottom: 20px;">
+                                <!--<img src="images/icons/drawing-tablet.png" alt="">-->
+                                <span class="fa fa-thumbs-o-up" aria-hidden="true" style="font-size: 26px;padding: 30px;color: #FFFFFF;-moz-border-radius: 60px;-webkit-border-radius: 60px;border-radius: 60px;background: #f6882d;"></span>
+                            </div>
+                            <div>
+                                <!--<h4 class="font-bold">Responsive Design</h4>-->
+                                <p class="" style="font-size: 2em;">Mantenha seus acordos ativos pague em dia suas parcelas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-24996081-3', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+<!-- Mirrored from scania.enviodeboleto.com.br/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Dec 2022 00:22:45 GMT -->
+</html>
+    <!--</div>-->
+
+    <div class="container" style="border: solid 1px #eaeaea; background-color: #6699cc">
+        <div class="row" style="margin-top:1%;margin-bottom:1%;color:white">
+
+            <div class="col-md-4 col-sm-6">
+                    <ul class="list-unstyled">
+<li>
+                                            <p>Scania Administradora de Consórcios Ltda<br>Serviço de Atendimento ao Cliente - 0800 0557900<br>Ouvidoria - 0800 7711850 <br>Deficientes Auditivos - 0800 77177917</p>
+                                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <ul class="list-unstyled">
+<li>
+                                            <p>Av. José Odorizzi, 650<br>Bairro Assunção<br>CEP 09810-000<br> São Bernardo do Campo / SP</p>
+                                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <ul class="list-unstyled">
+
+                    </ul>
+                </div>
+                <aside class="float">
+                    <a  target="_blank" href="https://api.whatsapp.com/send?phone=5511952199259&amp;text=Ol%C3%A1%2C%20Tudo%20bem%3F%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20servi%C3%A7os%21" class="btn-floating waves-effect pulse">
+                        <p class="whatsapp">Chame Agora Mesmo!</p> 
+                        <span class="fab fa-whatsapp"></span> 
+                        <strong class="whatsapp">11 95219-9259	</strong>
+                    </a>
+                </aside>
+                    <header class="row head center">
+                    <figure>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="footer-alt text-right" style="overflow: hidden; padding: 10px 0 0 0;">
+                    <p class="" style="font-size: 12px;">© 2022 <a style="color: #f6892d;">Messagecenter</a>. Todos os direitos reservados. Legal | Termos de Utilização | Privacidade | <a href="#" title=""><i class="fa fa-facebook-official"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="https://scania.enviodeboleto.com.br/js/jquery.js"></script>
+    <script src="https://scania.enviodeboleto.com.br/js/bootstrap.min.js"></script>
+    <!-- Jquery easing -->
+    <script type="text/javascript" src="https://scania.enviodeboleto.com.br/js/jquery.easing.1.3.min.js"></script>
+    <script src="https://scania.enviodeboleto.com.br/js/wow.min.js"></script>
+    <script type="text/javascript" src="https://scania.enviodeboleto.com.br/js/jquery.magnific-popup.min.js"></script>
+    <!--sticky header-->
+    <script type="text/javascript" src="https://scania.enviodeboleto.com.br/js/jquery.sticky.js"></script>
+    <script src="https://scania.enviodeboleto.com.br/js/waypoints.min.js" type="text/javascript"></script>
+    <script src="https://scania.enviodeboleto.com.br/js/jquery.counterup.min.js" type="text/javascript"></script>
+    <script src="https://scania.enviodeboleto.com.br/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+    <script src="https://scania.enviodeboleto.com.br/locales/bootstrap-datepicker.pt-BR.min.js" type="text/javascript"></script>
+    <script src="https://scania.enviodeboleto.com.br/js/jquery.mask.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+        $('#sandbox-container input').datepicker({
+            format: "dd/mm/yyyy",
+            todayBtn: "linked",
+            language: "pt-BR",
+            autoclose: true,
+            todayHighlight: true
+        });
+    </script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-24996081-3', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!--common script for all pages-->
+    <script src="https://scania.enviodeboleto.com.br/js/jquery.app.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            $('.modal-open').css('padding-right', '0px');
+
+            $('#myModalHorizontal').click(function () {
+
+                $('#myModalHorizontal').css('padding-right', '0px');
+                $('.modal-open').css('padding-right', '0px');
+            });
+
+
+            $('#myModalHorizontal').on('shown.bs.modal', function (e) {
+                $('.modal-open').css('padding-right', '0px');
+            });
+
+        });
+
+        $(document.body).on('hidden.bs.modal', function () {
+            $(document.body).css('padding-right', 0)
+        });
+    </script>
+</body>
+</html>
